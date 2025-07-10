@@ -8,11 +8,11 @@ import threading
 
 # CODZA ASCII Sanatı Başlangıcı
 print("""
-  CCCC    OOO    DDDD    ZZZZZ   AAAAA
- C        O   O   D   D     Z    A     A
- C        O   O   D   D    Z     AAAAAAA
- C        O   O   D   D   Z      A     A
-  CCCC    OOO    DDDD   ZZZZZ   A     A
+W       W   OOOOO   RRRRR   DDDD    EEEEE   X     X
+W       W  O     O  R    R  D   D   E        X   X
+W   W   W  O     O  RRRRR   D   D   EEEEE     X X
+W W   W W  O     O  R   R   D   D   E        X   X
+WW     WW   OOOOO   R    R  DDDD    EEEEE   X     X
 """)
 # CODZA ASCII Sanatı 
 
@@ -27,7 +27,7 @@ while 1:
     system("cls||clear")
     print("""{}
     
-    Sms: {}           {}by {}@Codza\n  
+    Sms: {}           {}Yapimci {}@wordexchecker\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
