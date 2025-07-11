@@ -1,10 +1,10 @@
-# CodzaSmsBomber
+# Wordex
 nasıl çalışır
 
-git clone https://github.com/404codza/CodzaSmsBomber.git
+git clone https://github.com/Slaxy-glitch/WordexChecker.git
 
-cd CodzaSmsBomber
+cd WordexChecker
 
-python3 CodzaSms.py
+python3 WordexSms.py
 
 Not=enough reborn kodlarından yararlanılmıştır
